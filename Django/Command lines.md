@@ -16,6 +16,7 @@
 # Using the shell
 ```python manage.py shell```
 
+```
 >>>  from polls.models import Question, Choice
 >>>  from django.utils import timezone
 >>>  Question.objects.all()
@@ -33,6 +34,9 @@
 >>>  q.choice_set.create(choice_text='Flask', votes=0)
 >>>  q.choice_set.all()
 >>>  quit()
+```
+
+
 # Create admin user
 ```python manage.py createsuperuser```
 # Create pages app
